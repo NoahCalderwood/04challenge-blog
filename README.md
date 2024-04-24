@@ -5,6 +5,7 @@
 I set out to create a site to create and store blog posts utilizing local storage, arrays, and objects all while using JS, CSS, and HTML.
 This site also has a light/ dark mode toggle. I learned tons about local storage and how to properly use it and how to better use JavaScript (JS), CSS, and HTML in tandem with each  other. 
 
+https://noahcalderwood.github.io/04challenge-blog/
 
 ![Screenshot 2024-04-24 174844](https://github.com/NoahCalderwood/04challenge-blog/assets/76232069/db6ae131-505e-486f-b60d-5e5144c7d44a)
 
