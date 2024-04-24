@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="./my-blog/assets/css/styles.css">
     <link rel="stylesheet" href="./my-blog/assets/css/form.css">
 </head>
-<body>
-    <header>
-       <p>☀️</p>
+<body class="light">
+    <header >
+    
+       <button id="modeswitch">☀️</button>
     </header>
     <article>
     <figure class="first-blog">
-       <img id="yellow" src="./my-blog/assets/img/blogFormImg.jpg" alt="">
+       <img id="yellow" src="./my-blog/assets/img/blogFormImg.png" alt="">
        <h1 class="overlay">My First Blog</h1>
     </figure>
-    <figure class="form">
+    <form class="form">
+        <h2>What's on your mind?</h2>
         <h3>Username<br> </h3>
-        <textarea id="user"></textarea>
+        <input type="text" id="user">
         <h3>Title<br> </h3>
-        <textarea id="title"></textarea>
+        <input type="text" id="title">
         <h3>Content<br> </h3>
-        <textarea id="content"></textarea>
+        <textarea type="text" id="content"></textarea>
         <button id="submit">Submit</button>
-    </figure>
+    </form>
     </article>
     <footer>
+        <a href="https://noahcalderwood.github.io/mod2-challenge-portfolio/">Developer's Portfolio</a>
         <script src="./my-blog/assets/js/form.js"></script>
     </footer>
 </body>

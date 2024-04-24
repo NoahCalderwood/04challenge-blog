@@ -1,0 +1,36 @@
+body {
+    
+}
+header {
+    border-bottom: 5px double;
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    background-color: midnightblue;
+    
+}
+/*light and dark mode*/
+.dark{
+    background-color: rgb(80, 76, 76);
+    color:white;
+    transition: 0.5s;
+   }
+.light{
+   transition: 0.5s;
+   }
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    border-top: 5px solid;
+    background-color: midnightblue;
+    position: absolute;
+    width: 100%;
+   }
+a {
+    color: lightskyblue ;
+   }
+
+a:active {
+    color: white;
+   }
